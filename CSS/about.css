@@ -1,0 +1,102 @@
+body { 
+    background-color: white;
+    font-family: serif;
+    font-size: large;
+}
+
+.navbar {
+    background-color: rgb(201, 240, 244);
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a {
+    color: black;
+    font-size: 20px;
+    text-decoration: double;
+    padding: 14px 16px;
+}
+.navbar a:hover {
+    color: burlywood;
+    text-decoration: double;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    background-color: rgb(156, 224, 232);
+    padding: 20px;
+    margin-top: auto;
+    margin-right: 30px;
+}
+
+.box section {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.box section p {
+    font-size: larger;
+    width: 600px;
+    float: none;
+}
+
+.box section h1 {
+    font-size: xx-large;
+}
+
+.box section ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly; 
+}
+ 
+.icons { 
+    font-size: 40px;
+}
+.icon1 {
+    color: #34abe2;
+}
+.icon2 {
+    color: #34abe2;
+}
+.icon3 {color: #34abe2;}
+
+.icons :hover {
+    color: burlywood;
+}
+
+.kids {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.kids img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
