@@ -7,37 +7,17 @@
 }
 
 
+.buttons {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+} */
 
 .one {
     color: darkkhaki;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-
-.two {
-    text-align: center;
-}
-
-
-.gallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 5vw);
-    grid-gap: 15px;
-    margin: 5px;
-    padding: 50px;
-    caption-side: bottom;
-}
-
-.buttons {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 /* Socials Icons */
 
@@ -161,3 +141,48 @@ input, label {
     width: 60%; 
 }
 
+
+/* resources */
+.one {
+    color: darkkhaki;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.two {
+    color: rgb(118, 114, 46);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.resims {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+    margin: 5px;
+    padding: 50px;
+    caption-side: bottom;
+}
+
+.rlinks {
+    margin-left: 50px;
+}
+
+a:link {
+    color: #0070ba;
+  ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #0070ba;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
