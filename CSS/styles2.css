@@ -1,0 +1,163 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.one {
+    color: darkkhaki;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 15px;
+    margin: 5px;
+    padding: 50px;
+    caption-side: bottom;
+}
+
+.buttons {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Socials Icons */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.form {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+} */
+
+
+
+/* Donate page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background-color: rgb(205, 229, 244);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px 50px 40px;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.hand-icon img {
+    display: inline-block;
+    margin-bottom: -10px;
+    margin-left: 35%;
+    width: 400px;
+}
+
+.box h2 {
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.box p {
+    line-height: 24px;
+    margin-left: 40%;
+}
+
+.btn {
+	border-radius: 5px;
+  	box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+    width: 100px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.btn.card {
+	background-color: rgb(232, 91, 70);
+
+}
+
+
+.btn.paypal {
+	background-color: #0070ba;
+	margin-right: 10px;
+}
+
+/* form */
+
+#billdeet  {
+    margin-top: 50px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+input, label {
+    margin: 5px 5px;
+}
+
+.form-group {
+    margin: 30px auto;
+    width: 400px;
+}
+
+#form-control {
+    text-align: center;
+}
+
+#fname {
+    width: 40%; 
+}
+#lname {
+    width: 40%; 
+}
+#emailad {
+    width: 70%; 
+}
+#telno {
+    width: 50%; 
+}
+#street {
+    width: 60%; 
+}
+
