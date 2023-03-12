@@ -1,0 +1,33 @@
+.navbox {
+    width: 100%;
+    background-color:  #e3f2fd;
+    position: fixed;
+    height: 10%;
+    top: 0;
+    right: 0;
+}
+
+#navbar {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+
+}
+
