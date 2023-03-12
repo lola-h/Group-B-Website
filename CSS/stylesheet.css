@@ -7,13 +7,15 @@
     text-align: center;
 }
 
-.nav {
-    background-color: #f87171;
-}
-  
-.ul {
-    background-color: #f87171;
-}
+div#nav {
+    text-align: center;
+    background-color: #008B8B;
+    color: #fffff0;
+  }
+
+  div#nav ul{
+    display: inline-block;
+  }
 
 
 h1 {
@@ -33,13 +35,13 @@ h1 {
   padding: 50px;
 }
 
-
-.image-div {
-    display: flex;
-    justify-content: center;
-    background: grey;
-    margin: 30px;
-    padding: px;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 15px;
+    margin: 5px;
+    padding: 50px;
 }
 
 .footer {
