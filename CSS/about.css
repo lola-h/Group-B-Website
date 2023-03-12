@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(201, 240, 244);
+    background-color: #e0ecf0;
     overflow: hidden;
     border-bottom: 1px solid black;
     padding: 10px;
@@ -37,7 +37,7 @@ body {
 
 .box {
     flex: 1;
-    background-color: rgb(156, 224, 232);
+    background-color: lightblue;
     padding: 20px;
     margin-top: auto;
     margin-right: 30px;
@@ -93,6 +93,74 @@ body {
     margin-top: 10px;
 
 }
+
+.section2 {
+    position: relative;
+    transform: translateY(25%);
+    text-align: center;
+    max-width: auto;
+    margin: 0 auto;
+    font-size: larger;
+
+}
+
+
+.section3 {
+   margin-top: 100px;
+   border: 5px solid lightblue;
+   padding: 20px;
+   width: 50%;
+   margin-left: 25%;
+
+}
+
+ .section3 h3 {
+    font-size: larger;
+    text-align: center;
+    max-inline-size: ;
+ }
+
+footer {
+    background-color: #e0ecf0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list1 {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .list2 {
+    flex-shrink: 0;
+  }
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+ 
+footer ul li {
+    margin-left: 20px;
+}
+
+
 
 
 
