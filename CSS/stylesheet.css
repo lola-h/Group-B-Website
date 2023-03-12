@@ -7,15 +7,6 @@
     text-align: center;
 }
 
-div#nav {
-    text-align: center;
-    background-color: #008B8B;
-    color: #fffff0;
-  }
-
-  div#nav ul{
-    display: inline-block;
-  }
 
 
 h1 {
@@ -25,15 +16,6 @@ h1 {
 }
 
 
-.first-div {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  background-color: whitesmoke;
-  font-size: 15px;
-  margin: 5px;
-  padding: 50px;
-}
 
 .gallery {
     display: grid;
@@ -42,6 +24,10 @@ h1 {
     grid-gap: 15px;
     margin: 5px;
     padding: 50px;
+}
+
+.ul {
+    text-align: left;
 }
 
 .footer {
