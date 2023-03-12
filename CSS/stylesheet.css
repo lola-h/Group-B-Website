@@ -4,12 +4,11 @@
     box-sizing: border-box;
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
 }
 
 
 
-h1 {
+.one {
     color: darkkhaki;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -26,8 +25,9 @@ h1 {
     padding: 50px;
 }
 
-.ul {
+.three {
     text-align: left;
+
 }
 
 .footer {
