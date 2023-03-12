@@ -169,19 +169,19 @@ input, label {
     margin-left: 50px;
 }
 
-a:link {
+.resources a:link {
     color: #0070ba;
   ;
     background-color: transparent;
     text-decoration: none;
   }
-  a:visited {
+  .resources  a:visited {
     color: #0070ba;
     background-color: transparent;
     text-decoration: none;
   }
 
-  a:hover {
+  .resources a:hover {
     color: darkblue;
     background-color: transparent;
     text-decoration: underline;
