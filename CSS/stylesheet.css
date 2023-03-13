@@ -6,7 +6,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
+.nav {
+    justify-content: center;
+}
 
 .one {
     color: darkkhaki;
@@ -19,24 +21,12 @@
 }
 
 
-.gallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 5vw);
-    grid-gap: 15px;
-    margin: 5px;
-    padding: 50px;
-    caption-side: bottom;
-}
 
-.buttons {
+/* .buttons {
     display: inline-block;
     align-items: center;
     justify-content: center;
-}
-
+} */
 
 /* Socials Icons */
 
@@ -51,6 +41,8 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+/* newsletter */
 
 .form {
     justify-content: center;
