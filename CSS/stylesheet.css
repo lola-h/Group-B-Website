@@ -20,7 +20,41 @@
     text-align: center;
 }
 
+div.gallery {
+    margin: 50px 5px 20px 50px; 
+    border: 1px solid #ccc;
+    width: 400px;
+    float: left;
+    }
+    
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+    
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+    
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
 
+    #wrapper {
+    width: 100%;
+    height: 60px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    button {
+    height: 60px;
+    width: 100px;
+    align-items: center;
+    }
 
 /* .buttons {
     display: inline-block;
