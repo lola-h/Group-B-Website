@@ -7,7 +7,10 @@
 }
 
 .nav {
+    padding : 10px 0 10px 0;
+    background-color: lightgrey;
     justify-content: center;
+
 }
 
 .one {
@@ -52,8 +55,10 @@ div.gallery {
 
     button {
     height: 60px;
-    width: 100px;
+    width: 150px;
     align-items: center;
+    white-space: nowrap;
+    text-align: center;
     }
 
 /* .buttons {
@@ -67,7 +72,7 @@ div.gallery {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 20px;
     text-decoration: none;
     border-radius: 50%;
 }
