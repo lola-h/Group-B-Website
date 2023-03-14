@@ -158,3 +158,11 @@ footer ul {
 footer ul li {
     margin-left: 20px;
 }
+
+footer a {
+    color: #666;
+}
+
+footer :hover {
+    color: burlywood;
+}
