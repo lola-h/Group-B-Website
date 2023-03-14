@@ -118,7 +118,7 @@ input, label {
 
 .form-group {
     margin: 30px auto;
-    width: 400px;
+    width: 500px;
 }
 
 #form-control {
@@ -140,7 +140,6 @@ input, label {
 #street {
     width: 60%; 
 }
-
 
 /* resources */
 .one {
@@ -171,7 +170,6 @@ input, label {
 
 .resources a:link {
     color: #0070ba;
-  ;
     background-color: transparent;
     text-decoration: none;
   }
