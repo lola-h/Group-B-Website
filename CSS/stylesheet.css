@@ -12,11 +12,20 @@
 
 }
 
-.one {
-    color: darkkhaki;
-    font-family: 'Raleway', sans-serif;
+/* Container holding the image and the text */
+.container {
+    position: relative;
     text-align: center;
-}
+    color: white;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .two {
     text-align: center;
@@ -55,6 +64,8 @@ div.gallery {
     button {
     height: 60px;
     width: 150px;
+    text-size-adjust: 7px;
+    background-color: burlywood;
     align-items: center;
     white-space: nowrap;
     text-align: center;
